@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "name": "R-RAYMON FullRay 120 4.0",
+    "description": "Przeznaczony do szybkiej jazdy po ścieżkach rower R-Raymon FullRay 120 4.0 ma napęd 1x12 SRAM SX Eagle. To zaawansowana grupa o niezwykle szerokim zakresie przełożeń spod znaku amerykańskiego orła. Zaletą fulla jest też komplet zawieszenia marki RockShox ze sprężynami powietrznymi i skokiem o wartości 120/130 mm.",
+    "price": 6599.99,
+    "img": "https://bikes-7747.kxcdn.com/r-raymon/2024/1287594_01.jpg",
+    "category": "Rowery"
+  },
+  {
+    "id": 2,
+    "name": "Marin Rift Zone 1 27'",
+    "description": "Rower Marin Rift Zone 1 29 orange/blue/silver Rift Zone to nasz najbardziej zorientowany na prędkość rower z zawieszeniem MultiTrac, stworzony dla rowerzystów poszukujących prędkości i wysokich możliwości przetaczania się 29-calowych kół umożliwiających szybką jazdę po szlaku.",
+    "price": 6399.99,
+    "img": "https://www.centrumrowerowe.pl/photo/article/s/rower-mtb-marin-rift-zone-1-27-5-005348.webp",
+    "category": "Rowery"
+  },
+  {
+    "id": 3,
+    "name": "Ghost Kato FS 29'",
+    "description": "KATO FS doskonale wykorzystuje ogromną zaletę naszej koncepcji platformy. Nasz podstawowy rower dla pełnej przyjemności korzysta z doświadczenia i rozwoju naszej serii AMR, a to się opłaca: stosunek ceny do wydajności jest rewelacyjny! Jest to bardzo wysokiej jakości, a jednocześnie łatwy w utrzymaniu, całkowicie beztroski rower,który dzięki wyważonej geometrii zapewnia maksymalną radość z wycieczek i szlaków nawet początkującym - i to za minimalną cenę.",
+    "price": 6999.99,
+    "img": "https://www.centrumrowerowe.pl/photo/article/s/rower-mtb-ghost-kato-fs-000445.webp",
+    "category": "Rowery"
+  },
+  {
+    "id": 4,
+    "name": "Kaseta SRAM Red XPLR XG-1391",
+    "description": "Kaseta o wadze zaledwie 289 gramów jest również znacznie lżejsza od poprzedniego modelu 12-rzędowego. Niska waga została osiągnięta dzięki zmodyfikowanej konstrukcji X-Dome.",
+    "price": 2999.99,
+    "img": "https://www.centrumrowerowe.pl/photo/product/sram-red-xplr-xg-1391-2-235254-f-sk7-w780-h554_2.webp",
+    "category": "Napęd"
+  },
+  {
+    "id": 5,
+    "name": "Kaseta SRAM GX Eagle",
+    "description": "Kaseta SRAM GX z serii Eagle XG-1275 to przykład zastosowania najwyższych technologii w produkcie ze średniej półki. Model zapewnia niesamowity zakres przełożeń.",
+    "price": 739.99,
+    "img": "https://static5.bikefast.pl/pol_pl_Kaseta-SRAM-CS-XG-1275-GX-Eagle-10-52t-12rz-czarna-2876_4.jpg",
+    "category": "Napęd"
+  },
+  {
+    "id": 6,
+    "name": "MAXXIS Minion DHF",
+    "description": "Maxxis Minion DHF to opona MTB przeznaczona do Trailu, Enduro lub Downhillu. Wyróżniającą ją cechą jest stabilność i kontrola podczas zjazdów. Z tym ogumieniem nabierają one zupełnie nowego wymiaru.",
+    "price": 239.99,
+    "img": "https://www.centrumrowerowe.pl/photo/product/maxxis-minion-dhf-2-205403-f-sk7-w780-h554_1.webp",
+    "category": "Opony"
+  },
+  {
+    "id": 7,
+    "name": "MAXXIS Minion DHR",
+    "description": "Opona Maxxis Minion DHR II WT jest przeznaczona zarówno na suche, jak i mokre warunki. Duże klocki na kierunkowym bieżniku to sposób na zwiększoną przyczepność podczas jazdy na piasku, błocie, a także twardym gruncie. Głęboka rzeźba obecna na środku opony zapewnia łatwe hamowanie. Wersja WT została zoptymalizowana względem szerokich obręczy (30-35 mm rozpiętości wewnętrznej).",
+    "price": 279.99,
+    "img": "https://www.centrumrowerowe.pl/photo/product/maxxis-minion-dhr-ii-wt-2-119856-f-sk7-w780-h554_1.webp",
+    "category": "Opony"
+  },
+  {
+    "id": 8,
+    "name": "Łańcuch SHIMANO 105",
+    "description": "Wysokiej klasy łańcuch CN-HG601 jest przeznaczony do napędów Shimano 105 oraz SLX. Powłoka wykonana w nowej technologii SIL-TEC, która obniża opory toczenia oraz hałasy podczas jazdy.",
+    "price": 119.99,
+    "img": "https://www.centrumrowerowe.pl/photo/product/shimano-105-slx-cn-hg601-2-125662-f-sk7-w780-h554_1.webp",
+    "category": "Napęd"
+  },
+  {
+    "id": 9,
+    "name": "WHYTE 901 V4",
+    "description": "Whyte 901 V4 to zaawansowany hardtail, który doskonale sprawdza się w trudniejszym terenie. Został wyposażony w najnowocześniejsze rozwiązania. Jego zalety dostrzegą miłośnicy zjazdów i dynamicznej jazdy po ścieżkach, bowiem intensywne użytkowanie poza miejskimi uliczkami to jego żywioł. Z tego względu model charakteryzuje agresywna geometria – krótszy tylny widelec, mostek oraz mniejszy kąt główki ramy zapewniające maksymalną kontrolę i zwrotność.",
+    "price": 10999.0,
+    "img": "https://www.centrumrowerowe.pl/photo/product/whyte-901-v4-2-161569-f-sk7-w780-h554_2.webp",
+    "category": "Rowery"
+  },
+  {
+    "id": 10,
+    "name": "R-RAYMON FullRay 120 3.0",
+    "description": "Wyposażony w powietrzne zawieszenie rower R-Raymon FullRay 120 3.0 docenią doświadczeni rowerzyści MTB. Model przyda się zwłaszcza na początek przygody z XC lub maratonami. Wykonany przez niemiecką markę full wiele zawdzięcza napędowi 1x11 z korbą R-Raymon (34T). Zaletą modelu są też 29-calowe koła z oponami Schwalbe Smart Sam gotowymi na konwersję na system bezdętkowy.",
+    "price": 4999.99,
+    "img": "https://www.centrumrowerowe.pl/photo/product/r-raymon-fullray-120-3-0-m550-2-202526-f-sk7-w780-h554_2.webp",
+    "category": "Rowery"
+  },
+  {
+    "id": 11,
+    "name": "Smar ABSOLUTEBLACK Graphenlube",
+    "description": "Smar do łańcucha Absoluteblack Graphenlube gwarantuje kapitalną skuteczność i wysoką wydajność. Ponadto aplikacja preparatu jest niezwykle prosta. Wybierz niezawodne rozwiązanie od cenionego producenta.",
+    "price": 589.99,
+    "img": "https://mrozbike.pl/images/smar-absoluteblack-graphene-14ml-mrozbike.webp",
+    "category": "Akcesoria"
+  },
+  {
+    "id": 12,
+    "name": "Rower gravel FELT Broam 60",
+    "description": "Marzy Ci się dobrej jakości gravel w świetnej cenie? Felt Broam 60 to doskonały wybór dla początkujących i średnio zaawansowanych kolarzy.",
+    "price": 2799.99,
+    "img": "https://www.centrumrowerowe.pl/photo/product/felt-broam-60-2-213571-f-sk7-w780-h554_2.webp",
+    "category": "Rowery"
+  },
+  {
+    "id": 13,
+    "name": "Rower crossowy SUPERIOR RX 510",
+    "description": "Superior RX 510 jest wszechstronnym rowerem crossowym, który da Ci przyjemność z jazdy. Wejdź i dowiedz się więcej!",
+    "price": 1699.99,
+    "img": "https://www.centrumrowerowe.pl/photo/product/superior-rx-510-2-202098-f-sk7-w780-h554_2.webp",
+    "category": "Rowery"
+  },
+  {
+    "id": 14,
+    "name": "Rower biegowy REBEL KIDZ Air Classic Unisex",
+    "description": "Rowerek biegowy Rebel Kidz Air ClassicRebel Kidz to nowa kolekcja rowerków dziecięcych dla najmłodszych w wieku 2-5 lat",
+    "price": 259.99,
+    "img": "https://www.rowertour.com/uploads/shop/1/4/2/9/4/3/rower-biegowy-rebel-kidz-air-classic-jasnozielony-1.jpg",
+    "category": "Rowery"
+  },
+  {
+    "id": 15,
+    "name": "Rower szosowy FELT FR Advanced 105 Di2",
+    "description": "Felt FR Advanced 105 Di2 lekki, zwrotny i bardzo sztywny rower szosowy. Amerykański producent wykorzystał w nim ramę z najwyższej jakości włókna węglowego.",
+    "price": 12499.99,
+    "img": "https://www.centrumrowerowe.pl/photo/product/felt-fr-advanced-105-di2-2-226050-f-sk7-w780-h554_2.webp",
+    "category": "Rowery"
+  },
+  {
+    "id": 16,
+    "name": "Klamkomanetka SRAM Force 22 HRD",
+    "description": "Next-gen gaming console with ultra-fast load times and 4K resolution.",
+    "price": 899.99,
+    "img": "https://www.centrumrowerowe.pl/photo/product/sram-force-22-hrd-2-205399-f-sk6-w1550-h1080.png",
+    "category": "old"
+  },
+  {
+    "id": 17,
+    "name": "Gaming Console",
+    "description": "Next-gen gaming console with ultra-fast load times and 4K resolution.",
+    "price": 499.99,
+    "img": "https://i.pinimg.com/564x/a4/53/67/a45367e27c573bc1df81f414f6d40e3f.jpg",
+    "category": "old"
+  },
+  {
+    "id": 18,
+    "name": "Gaming Console",
+    "description": "Next-gen gaming console with ultra-fast load times and 4K resolution.",
+    "price": 499.99,
+    "img": "https://i.pinimg.com/564x/a4/53/67/a45367e27c573bc1df81f414f6d40e3f.jpg",
+    "category": "old"
+  },
+  {
+    "id": 19,
+    "name": "Gaming Console",
+    "description": "Next-gen gaming console with ultra-fast load times and 4K resolution.",
+    "price": 499.99,
+    "img": "https://i.pinimg.com/564x/a4/53/67/a45367e27c573bc1df81f414f6d40e3f.jpg",
+    "category": "old"
+  },
+  {
+    "id": 20,
+    "name": "Gaming Console",
+    "description": "Next-gen gaming console with ultra-fast load times and 4K resolution.",
+    "price": 499.99,
+    "img": "https://i.pinimg.com/564x/a4/53/67/a45367e27c573bc1df81f414f6d40e3f.jpg",
+    "category": "old"
+  },
+  {
+    "id": 21,
+    "name": "Gaming Console",
+    "description": "Next-gen gaming console with ultra-fast load times and 4K resolution.",
+    "price": 499.99,
+    "img": "https://i.pinimg.com/564x/a4/53/67/a45367e27c573bc1df81f414f6d40e3f.jpg",
+    "category": "old"
+  },
+  {
+    "id": 22,
+    "name": "Gaming Console",
+    "description": "Next-gen gaming console with ultra-fast load times and 4K resolution.",
+    "price": 499.99,
+    "img": "https://i.pinimg.com/564x/a4/53/67/a45367e27c573bc1df81f414f6d40e3f.jpg",
+    "category": "old"
+  },
+  {
+    "id": 23,
+    "name": "Gaming Console",
+    "description": "Next-gen gaming console with ultra-fast load times and 4K resolution.",
+    "price": 499.99,
+    "img": "https://i.pinimg.com/564x/a4/53/67/a45367e27c573bc1df81f414f6d40e3f.jpg",
+    "category": "old"
+  },
+  {
+    "id": 24,
+    "name": "Gaming Console",
+    "description": "Next-gen gaming console with ultra-fast load times and 4K resolution.",
+    "price": 499.99,
+    "img": "https://i.pinimg.com/564x/a4/53/67/a45367e27c573bc1df81f414f6d40e3f.jpg",
+    "category": "old"
+  }
+]

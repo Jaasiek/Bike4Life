@@ -1,0 +1,14 @@
+@import "../../colors.scss";
+
+html {
+  font-size: 10px;
+}
+
+.app-footer-container {
+  padding: 2rem;
+  font-size: 1.6rem;
+  background: $grey;
+  color: white;
+  text-align: center;
+  height: 5rem;
+}

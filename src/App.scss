@@ -1,0 +1,120 @@
+@import "colors.scss";
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background-color: $grey;
+}
+
+.main {
+  background-color: $grey;
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 12rem;
+    left: 0;
+    width: 30rem;
+    overflow-y: hidden;
+    height: calc(100vh - 16rem);
+    gap: 1rem;
+    background-color: $light_grey;
+    border-radius: 2rem;
+    padding: 1rem;
+    overflow-y: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    -webkit-box-shadow: 0px 13px 25px -4px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 13px 25px -4px rgba(66, 68, 90, 1);
+    box-shadow: 0px 13px 25px -4px rgba(66, 68, 90, 1);
+
+    .categories {
+      background-color: $light_grey;
+      height: 30rem;
+      button {
+        color: $white;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: $light_grey;
+        font-size: 1.4rem;
+        border: none;
+        gap: 0.5rem;
+        width: fit-content;
+        transition: 0.3s;
+
+        &:hover {
+          cursor: pointer;
+          font-weight: 600;
+          transition: 0.3s;
+          color: $neon_yellow;
+          font-size: 1.5rem;
+        }
+
+        &:active {
+          transform: scale(0.9);
+          transition: 0.3s;
+        }
+      }
+    }
+
+    .specialOffer {
+      margin-top: 1rem;
+      height: 40rem;
+      box-sizing: border-box;
+      width: 100%;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 2rem;
+      -webkit-box-shadow: 1px 5px 31px 5px $neon_yellow;
+      -moz-box-shadow: 1px 5px 31px 5px $neon_yellow;
+      box-shadow: 1px 5px 31px 5px $neon_yellow;
+
+      .specialOfferForYou {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+
+        p {
+          color: $neon_yellow;
+          font-weight: 700;
+          font-size: 1.9rem;
+        }
+      }
+
+      .app-product-container {
+        width: 90%;
+        background-color: transparent;
+        margin-top: -1rem;
+      }
+    }
+  }
+
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 9rem;
+    margin-bottom: 8rem;
+    width: calc(100vw - 350px);
+    margin-left: 400px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 600px) {
+}
