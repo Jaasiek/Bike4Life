@@ -7,7 +7,7 @@ const Cart = (props) => {
   const [total, setTotal] = useState({
     price: 0,
     discount: 0,
-    specialSavings: 0,
+    savings: 0,
     promoSavings: 0,
     code: false,
   });
@@ -16,19 +16,19 @@ const Cart = (props) => {
 
   const getTotalPriceAndSavings = (cart) => {
     let totalPrice = 0;
-    let specialSavings = 0;
+    let totalSavings = 0;
 
     cart.forEach((product) => {
-      const productPrice = product.discountedPrice || product.price || 0;
+      const productPrice = product.price || 0;
       const savings = product.savings || 0;
 
       totalPrice += productPrice * product.count;
-      specialSavings += savings * product.count;
+      totalSavings += savings * product.count;
     });
 
     return {
       totalPrice: totalPrice.toFixed(2),
-      specialSavings: specialSavings.toFixed(2),
+      totalSavings: totalSavings.toFixed(2),
     };
   };
 
@@ -48,16 +48,16 @@ const Cart = (props) => {
       }
     });
 
-    const { totalPrice, specialSavings } =
+    const { totalPrice, totalSavings } =
       getTotalPriceAndSavings(localCartHelper);
 
     setLocalCart([...localCartHelper]);
     setTotal({
       price: totalPrice,
-      specialSavings: specialSavings,
+      savings: totalSavings,
       promoSavings: 0,
-      discount: 0,
       code: false,
+      discount: 0,
     });
   }, [cart]);
 
@@ -80,21 +80,26 @@ const Cart = (props) => {
       const discountValue = 0.2;
       setPromoCodeValidation("true");
 
-      const promoSavings = (total.price * discountValue).toFixed(2);
+      const promoSavings = localCart
+        .reduce((totalPromoSavings, product) => {
+          const priceToDiscount = product.discountedPrice
+            ? parseFloat(product.discountedPrice)
+            : parseFloat(product.price);
+          const discountedPrice = (
+            priceToDiscount *
+            (1 - discountValue)
+          ).toFixed(2);
 
-      const discountedTotal = localCart.map((product) => {
-        const discountedPrice = (product.price * (1 - discountValue)).toFixed(
-          2
-        );
-        return {
-          ...product,
-          discountedPrice,
-        };
-      });
+          totalPromoSavings +=
+            (priceToDiscount - discountedPrice) * product.count;
 
-      const { totalPrice } = getTotalPriceAndSavings(discountedTotal);
+          product.discountedPriceWithPromo = discountedPrice;
+          return totalPromoSavings;
+        }, 0)
+        .toFixed(2);
 
-      setLocalCart(discountedTotal);
+      const { totalPrice } = getTotalPriceAndSavings(localCart);
+
       setTotal({
         ...total,
         price: totalPrice,
@@ -117,9 +122,21 @@ const Cart = (props) => {
           <p>
             <b>{product.count}</b> x
             {product.originalPrice ? (
+              total.code ? (
+                <>
+                  <s> {product.originalPrice} PLN </s>
+                  <b> {product.discountedPriceWithPromo} PLN </b>
+                </>
+              ) : (
+                <>
+                  <s> {product.originalPrice} PLN </s>
+                  <b> {product.discountedPrice} PLN </b>
+                </>
+              )
+            ) : total.code ? (
               <>
-                <s> {product.originalPrice} PLN </s>
-                <b> {product.discountedPrice} PLN </b>
+                <s> {product.price} PLN </s>
+                <b> {product.discountedPriceWithPromo} PLN </b>
               </>
             ) : (
               <b> {product.price} PLN </b>
@@ -141,9 +158,9 @@ const Cart = (props) => {
       <p className="totalSavings">
         Zaoszczędzasz:{" "}
         <b>
-          {(
-            parseFloat(total.specialSavings) + parseFloat(total.promoSavings)
-          ).toFixed(2)}{" "}
+          {(parseFloat(total.savings) + parseFloat(total.promoSavings)).toFixed(
+            2
+          )}{" "}
           PLN
         </b>
       </p>
