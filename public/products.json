@@ -125,70 +125,70 @@
     "description": "Next-gen gaming console with ultra-fast load times and 4K resolution.",
     "price": 899.99,
     "img": "https://www.centrumrowerowe.pl/photo/product/sram-force-22-hrd-2-205399-f-sk6-w1550-h1080.png",
-    "category": "old"
+    "category": "Napęd"
   },
   {
     "id": 17,
-    "name": "Gaming Console",
-    "description": "Next-gen gaming console with ultra-fast load times and 4K resolution.",
-    "price": 499.99,
-    "img": "https://i.pinimg.com/564x/a4/53/67/a45367e27c573bc1df81f414f6d40e3f.jpg",
-    "category": "old"
+    "name": "Trenażer interaktywny WAHOO KICKR Core",
+    "description": "Wahoo Kickr Core to Twój kompan na długie zimowe wieczory. Dzięki niemu możesz przeprowadzać różne rodzaje treningów",
+    "price": 2799.99,
+    "img": "https://www.centrumrowerowe.pl/photo/product/wahoo-kickr-core-2-133998-f-sk6-w1550-h1080.png",
+    "category": "Akcesoria"
   },
   {
     "id": 18,
-    "name": "Gaming Console",
-    "description": "Next-gen gaming console with ultra-fast load times and 4K resolution.",
-    "price": 499.99,
-    "img": "https://i.pinimg.com/564x/a4/53/67/a45367e27c573bc1df81f414f6d40e3f.jpg",
-    "category": "old"
+    "name": "Rower elektryczny ORBEA Wild M10",
+    "description": "Orbea WILD M10 to wyjątkowy rower terenowy, który łączy innowacyjną technologię elektryczną z niezrównanym komfortem i maksymalną wydajnością",
+    "price": 29999.99,
+    "img": "https://www.centrumrowerowe.pl/photo/product/orbea-wild-h10-2-207212-f-sk7-w780-h554_2.webp",
+    "category": "Rowery"
   },
   {
     "id": 19,
-    "name": "Gaming Console",
-    "description": "Next-gen gaming console with ultra-fast load times and 4K resolution.",
-    "price": 499.99,
-    "img": "https://i.pinimg.com/564x/a4/53/67/a45367e27c573bc1df81f414f6d40e3f.jpg",
-    "category": "old"
+    "name": "GOODYEAR Transit Tour",
+    "description": "Transit Tour to opona do jazdy miejskiej i trekkingowej. Jest ona również kompatybilna z rowerami elektrycznymi osiągającymi prędkość do 50 km/h.",
+    "price": 129.99,
+    "img": "https://www.centrumrowerowe.pl/photo/product/goodyear-transit-tour-2-143164-f-sk7-w780-h554_1.png",
+    "category": "Opony"
   },
   {
     "id": 20,
-    "name": "Gaming Console",
-    "description": "Next-gen gaming console with ultra-fast load times and 4K resolution.",
-    "price": 499.99,
-    "img": "https://i.pinimg.com/564x/a4/53/67/a45367e27c573bc1df81f414f6d40e3f.jpg",
-    "category": "old"
+    "name": "SCHWALBE Al Mighty",
+    "description": "Opona Schwalbe Al Mighty przeznaczona do fatbike'a. To model do jazdy po śniegu i ekstremalnym błocie – szeroki, z agresywnym bieżnikiem.",
+    "price": 859.99,
+    "img": "https://www.centrumrowerowe.pl/photo/product/schwalbe-al-mighty-2-227795-f-sk6-w1550-h1080.png",
+    "category": "Opony"
   },
   {
     "id": 21,
-    "name": "Gaming Console",
-    "description": "Next-gen gaming console with ultra-fast load times and 4K resolution.",
-    "price": 499.99,
-    "img": "https://i.pinimg.com/564x/a4/53/67/a45367e27c573bc1df81f414f6d40e3f.jpg",
-    "category": "old"
+    "name": "Rower crossowy SUPERIOR RX 510",
+    "description": "Superior RX 510 jest wszechstronnym rowerem crossowym, który da Ci przyjemność z jazdy.",
+    "price": 1699.99,
+    "img": "https://www.centrumrowerowe.pl/photo/product/superior-rx-510-2-202098-f-sk7-w780-h554_2.webp",
+    "category": "Rowery"
   },
   {
     "id": 22,
-    "name": "Gaming Console",
-    "description": "Next-gen gaming console with ultra-fast load times and 4K resolution.",
-    "price": 499.99,
-    "img": "https://i.pinimg.com/564x/a4/53/67/a45367e27c573bc1df81f414f6d40e3f.jpg",
-    "category": "old"
+    "name": "Rower gravel FELT Broam 60",
+    "description": "Marzy Ci się dobrej jakości gravel w świetnej cenie? Felt Broam 60 to doskonały wybór dla początkujących i średnio zaawansowanych kolarzy. ",
+    "price": 2799.99,
+    "img": "https://www.centrumrowerowe.pl/photo/product/felt-broam-60-2-213571-f-sk7-w780-h554_2.webp",
+    "category": "Rowery"
   },
   {
     "id": 23,
-    "name": "Gaming Console",
-    "description": "Next-gen gaming console with ultra-fast load times and 4K resolution.",
-    "price": 499.99,
-    "img": "https://i.pinimg.com/564x/a4/53/67/a45367e27c573bc1df81f414f6d40e3f.jpg",
-    "category": "old"
+    "name": "Grupa gravelowa SHIMANO GRX 610",
+    "description": "Kup Grupa gravelowa SHIMANO GRX 610 w największym internetowym sklepie rowerowym. Szybka dostawa oraz atrakcyjna cena - już od 2999,00 zł.",
+    "price": 2999.99,
+    "img": "https://www.centrumrowerowe.pl/photo/product/shimano-grx-610-2-234315-f-sk6-w1550-h1080.png",
+    "category": "Napęd"
   },
   {
     "id": 24,
-    "name": "Gaming Console",
-    "description": "Next-gen gaming console with ultra-fast load times and 4K resolution.",
-    "price": 499.99,
-    "img": "https://i.pinimg.com/564x/a4/53/67/a45367e27c573bc1df81f414f6d40e3f.jpg",
-    "category": "old"
+    "name": "Grupa szosowa SRAM Red AXS 2x D1 HRD",
+    "description": "Elektroniczna grupa Sram Red AXS 2x12 HRD cechuje się bezprzewodową zmianą przełożeń. Zestaw jest uzupełniony zaciskami i tarczami hamulcowymi.",
+    "price": 6999.99,
+    "img": "https://www.centrumrowerowe.pl/photo/product/sram-red-axs-2x-d1-hrd-2-136136-f-sk7-w780-h554_1.png",
+    "category": "Napęd"
   }
 ]

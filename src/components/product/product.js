@@ -23,7 +23,7 @@ const Product = (props) => {
       )}
       <p className="price">{product.price} PLN</p>
 
-      <button onClick={() => action(product)}>Buy</button>
+      <button onClick={() => action(product)}>Dodaj do koszyka</button>
     </div>
   );
 };

@@ -12,3 +12,9 @@ html {
   text-align: center;
   height: 5rem;
 }
+
+@media only screen and (max-width: 600px) {
+  :root {
+    font-size: 5px;
+  }
+}
