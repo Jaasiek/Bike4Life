@@ -151,7 +151,11 @@ const Cart = (props) => {
         {total.code === true && <s className="oldPrize">{total.price} PLN</s>}
         <b className="promoPrize">
           {" "}
-          {(total.price - total.promoSavings).toFixed(2)} PLN
+          {(
+            total.price -
+            (parseFloat(total.savings) + parseFloat(total.promoSavings))
+          ).toFixed(2)}{" "}
+          PLN
         </b>
       </p>
 

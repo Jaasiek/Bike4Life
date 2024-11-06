@@ -10,13 +10,10 @@ html {
   background-color: $light_grey;
   padding: 1.5rem;
   display: flex;
-  flex-direction: column;
   border-radius: 1rem;
   display: inline-block;
   width: 18rem;
   height: fit-content;
-  justify-content: space-between;
-  align-items: center;
 
   p.original-price {
     text-decoration: line-through;
@@ -71,20 +68,95 @@ html {
     transition: 0.2s;
 
     &:hover {
-      transform: scale(1.1);
       cursor: pointer;
-      transition: 0.3s;
     }
 
     &:active {
-      transform: scale(1);
-      background-color: $neon_yellow;
+      transform: scale(0.9);
     }
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 630px) {
+  .app-product-container:not(.specialOfferProduct) {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    gap: 1rem;
+
+    .img {
+      height: 15rem;
+      width: auto;
+    }
+
+    .product-name {
+      h4 {
+        font-size: 1.4rem;
+        text-align: center;
+        margin-top: 2rem;
+      }
+    }
+
+    p.desc {
+      font-size: 1.2rem;
+      width: 100%;
+      white-space: normal;
+      overflow: visible;
+    }
+
+    p.price {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: $neon_yellow;
+    }
+
+    button {
+      width: 100%;
+    }
+  }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1500px) {
+  .app-product-container:not(.specialOfferProduct) {
+    width: 45%;
+    padding: 1rem;
+    height: auto;
+
+    .img {
+      height: 15rem;
+      width: auto;
+    }
+
+    .product-name {
+      h4 {
+        font-size: 1.4rem;
+        text-align: center;
+        margin-top: 2rem;
+      }
+    }
+
+    p.desc {
+      font-size: 1.2rem;
+      width: 100%;
+      white-space: normal;
+      overflow: visible;
+      height: auto;
+    }
+
+    p.price {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: $neon_yellow;
+    }
+
+    button {
+      width: 100%;
+    }
+
+    .priceAndButton {
+      position: relative;
+      top: 0px;
+    }
+  }
 }

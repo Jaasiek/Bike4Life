@@ -75,7 +75,7 @@ function App() {
               className={selectedCategory === "" ? "active" : ""}
               onClick={showAllProducts}
             >
-              Wszystkie produkty
+              Wszystko
               <p>({products.length})</p>
             </button>
             {categories.map((category, index) => (

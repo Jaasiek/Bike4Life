@@ -51,3 +51,9 @@ html {
     }
   }
 }
+
+@media only screen and (max-width: 630px) {
+  .app-header-container {
+    flex-direction: row;
+  }
+}

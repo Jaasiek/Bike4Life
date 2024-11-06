@@ -13,17 +13,17 @@ const Product = (props) => {
       <div className="product-name">
         <h4>{product.name}</h4>
       </div>
-
       <p className="desc" title={product.description}>
         {product.description}
       </p>
+      <div className="priceAndButton">
+        {product.originalPrice && (
+          <p className="original-price">{product.originalPrice} PLN</p>
+        )}
+        <p className="price">{product.price} PLN</p>
 
-      {product.originalPrice && (
-        <p className="original-price">{product.originalPrice} PLN</p>
-      )}
-      <p className="price">{product.price} PLN</p>
-
-      <button onClick={() => action(product)}>Dodaj do koszyka</button>
+        <button onClick={() => action(product)}>Dodaj do koszyka</button>
+      </div>
     </div>
   );
 };
