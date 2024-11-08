@@ -21,7 +21,7 @@ const Header = (props) => {
           </div>
         </div>
       </header>
-      {cartState && <Cart cart={cart} setCart={setCart} />}
+      {cartState && <Cart cart={cart} setCart={setCart} showCart={showCart} />}
     </div>
   );
 };

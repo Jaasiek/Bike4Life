@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./cart.scss";
 
 const Cart = (props) => {
-  const { cart, setCart } = props;
+  const { cart, setCart, showCart } = props;
   const [localCart, setLocalCart] = useState([]);
   const [total, setTotal] = useState({
     price: 0,
@@ -115,6 +115,9 @@ const Cart = (props) => {
   return (
     <div className="app-cart-container animate__animated animate__fadeInDown">
       <h2>Koszyk</h2>
+      <button className="cart-close" onClick={showCart}>
+        ✖
+      </button>
 
       {localCart.map((product) => (
         <p className="product" key={product.id}>

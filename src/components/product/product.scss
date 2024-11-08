@@ -77,13 +77,12 @@ html {
   }
 }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 1260px) {
   .app-product-container:not(.specialOfferProduct) {
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
+    width: 95%;
     padding: 1rem;
     gap: 1rem;
+    height: auto;
 
     .img {
       height: 15rem;
@@ -93,7 +92,6 @@ html {
     .product-name {
       h4 {
         font-size: 1.4rem;
-        text-align: center;
         margin-top: 2rem;
       }
     }
@@ -103,6 +101,7 @@ html {
       width: 100%;
       white-space: normal;
       overflow: visible;
+      min-height: 100px;
     }
 
     p.price {
@@ -117,7 +116,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (min-width: 1260px) and (max-width: 1320px) {
   .app-product-container:not(.specialOfferProduct) {
     width: 45%;
     padding: 1rem;
@@ -141,6 +140,7 @@ html {
       width: 100%;
       white-space: normal;
       overflow: visible;
+      min-height: 125px;
       height: auto;
     }
 
@@ -158,5 +158,13 @@ html {
       position: relative;
       top: 0px;
     }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1260px) {
+  .app-product-container:not(.specialOfferProduct) {
+    width: 45%;
+    padding: 1rem;
+    height: auto;
   }
 }

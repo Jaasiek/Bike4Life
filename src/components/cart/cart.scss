@@ -10,6 +10,8 @@ html {
   color: $white;
   width: 28rem;
   min-height: 34rem;
+  max-height: 75vh;
+  overflow-y: auto;
   position: fixed;
   right: 2rem;
   top: 12rem;
@@ -19,6 +21,24 @@ html {
   -webkit-box-shadow: 1px 3px 14px 4px rgb(88, 90, 66);
   -moz-box-shadow: 1px 3px 14px 4px rgba(66, 68, 90, 1);
   box-shadow: 1px 3px 14px 4px rgba(66, 68, 90, 1);
+
+  .cart-close {
+    color: $white;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+      transition: 0.2s;
+    }
+  }
 
   p {
     margin-top: 0.5rem;
